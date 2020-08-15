@@ -1,4 +1,4 @@
-update=Thu 13 Aug 2020 10:23:42 AM EDT
+update=Fri 14 Aug 2020 06:40:29 PM EDT
 version=1
 last_client=kicad
 [general]
@@ -12,10 +12,20 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=
+LastNetListRead=dippy.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -29,11 +39,12 @@ MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.25
-TrackWidth2=0.5
-TrackWidth3=1
-TrackWidth4=1.25
-TrackWidth5=1.5
-TrackWidth6=1.7
+TrackWidth2=0.4
+TrackWidth3=0.5
+TrackWidth4=1
+TrackWidth5=1.25
+TrackWidth6=1.5
+TrackWidth7=1.7
 ViaDiameter1=0.8
 ViaDrill1=0.4
 ViaDiameter2=1
