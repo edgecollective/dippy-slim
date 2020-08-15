@@ -731,16 +731,51 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x02_Female J7
 U 1 1 5F537DB5
-P 5200 4000
-F 0 "J7" H 5228 3976 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 5228 3885 50  0000 L CNN
-F 2 "" H 5200 4000 50  0001 C CNN
-F 3 "~" H 5200 4000 50  0001 C CNN
-	1    5200 4000
+P 4650 3900
+F 0 "J7" H 4678 3876 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 4678 3785 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 4650 3900 50  0001 C CNN
+F 3 "~" H 4650 3900 50  0001 C CNN
+	1    4650 3900
 	1    0    0    -1  
 $EndComp
-Text GLabel 5000 4100 0    50   Input ~ 0
+Text GLabel 4450 4000 0    50   Input ~ 0
 A1
-Text GLabel 5000 4000 0    50   Input ~ 0
+Text GLabel 4450 3900 0    50   Input ~ 0
 A2
+$Comp
+L Device:LED D1
+U 1 1 5F57E191
+P 9800 3900
+F 0 "D1" V 9839 3782 50  0000 R CNN
+F 1 "LED" V 9748 3782 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 9800 3900 50  0001 C CNN
+F 3 "~" H 9800 3900 50  0001 C CNN
+	1    9800 3900
+	0    -1   -1   0   
+$EndComp
+Text GLabel 9800 3750 0    50   Input ~ 0
+D5
+$Comp
+L power:GND #PWR0124
+U 1 1 5F5807E4
+P 9800 4350
+F 0 "#PWR0124" H 9800 4100 50  0001 C CNN
+F 1 "GND" H 9805 4177 50  0000 C CNN
+F 2 "" H 9800 4350 50  0001 C CNN
+F 3 "" H 9800 4350 50  0001 C CNN
+	1    9800 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R RL
+U 1 1 5F59A5EA
+P 9800 4200
+F 0 "RL" H 9870 4246 50  0000 L CNN
+F 1 "300R" H 9870 4155 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 9730 4200 50  0001 C CNN
+F 3 "~" H 9800 4200 50  0001 C CNN
+	1    9800 4200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
