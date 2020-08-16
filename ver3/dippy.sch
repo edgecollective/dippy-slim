@@ -779,4 +779,12 @@ Wire Wire Line
 	1150 1400 2850 1400
 Text GLabel 6550 2850 3    50   Input ~ 0
 RST
+Wire Notes Line
+	800  600  5500 600 
+Wire Notes Line
+	5500 600  5500 3600
+Wire Notes Line
+	5500 3600 800  3600
+Wire Notes Line
+	800  3600 800  600 
 $EndSCHEMATC

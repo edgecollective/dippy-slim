@@ -726,17 +726,17 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x02_Female J7
 U 1 1 5F537DB5
-P 5200 5450
-F 0 "J7" H 5228 5426 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 5228 5335 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 5200 5450 50  0001 C CNN
-F 3 "~" H 5200 5450 50  0001 C CNN
-	1    5200 5450
+P 10000 2550
+F 0 "J7" H 10028 2526 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 10028 2435 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 10000 2550 50  0001 C CNN
+F 3 "~" H 10000 2550 50  0001 C CNN
+	1    10000 2550
 	1    0    0    -1  
 $EndComp
-Text GLabel 5000 5550 0    50   Input ~ 0
+Text GLabel 9800 2650 0    50   Input ~ 0
 A1
-Text GLabel 5000 5450 0    50   Input ~ 0
+Text GLabel 9800 2550 0    50   Input ~ 0
 A2
 $Comp
 L Device:LED D1
