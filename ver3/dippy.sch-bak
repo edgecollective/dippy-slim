@@ -793,4 +793,6 @@ Wire Notes Line
 	5500 600  5500 5400
 Wire Notes Line
 	800  600  800  5400
+Text Notes 2000 1300 0    71   ~ 0
+Note: to build this separately on a breadboard, \nconnect all instances of 'VCC' with 'VIN' in this \nsub-schematic.
 $EndSCHEMATC
