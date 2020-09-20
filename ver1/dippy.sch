@@ -615,45 +615,34 @@ F 3 "~" H 6000 7500 50  0001 C CNN
 	1    6000 7500
 	1    0    0    -1  
 $EndComp
-Text GLabel 9650 3750 0    50   Input ~ 0
+Text GLabel 9350 3750 0    50   Input ~ 0
 A5
-Text GLabel 9650 3650 0    50   Input ~ 0
+Text GLabel 9350 3650 0    50   Input ~ 0
 A4
 $Comp
 L power:GND #PWR0122
 U 1 1 5F44B89B
-P 9300 3550
-F 0 "#PWR0122" H 9300 3300 50  0001 C CNN
-F 1 "GND" H 9305 3377 50  0000 C CNN
-F 2 "" H 9300 3550 50  0001 C CNN
-F 3 "" H 9300 3550 50  0001 C CNN
-	1    9300 3550
+P 9000 3550
+F 0 "#PWR0122" H 9000 3300 50  0001 C CNN
+F 1 "GND" H 9005 3377 50  0000 C CNN
+F 2 "" H 9000 3550 50  0001 C CNN
+F 3 "" H 9000 3550 50  0001 C CNN
+	1    9000 3550
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR0123
 U 1 1 5F44D61B
-P 9650 3450
-F 0 "#PWR0123" H 9650 3300 50  0001 C CNN
-F 1 "VCC" H 9667 3623 50  0000 C CNN
-F 2 "" H 9650 3450 50  0001 C CNN
-F 3 "" H 9650 3450 50  0001 C CNN
-	1    9650 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x04 J6
-U 1 1 5F452A97
-P 9850 3550
-F 0 "J6" H 9930 3542 50  0000 L CNN
-F 1 "Screw_Terminal_01x04" H 9930 3451 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-4-3.5-H_1x04_P3.50mm_Horizontal" H 9850 3550 50  0001 C CNN
-F 3 "~" H 9850 3550 50  0001 C CNN
-	1    9850 3550
+P 9350 3450
+F 0 "#PWR0123" H 9350 3300 50  0001 C CNN
+F 1 "VCC" H 9367 3623 50  0000 C CNN
+F 2 "" H 9350 3450 50  0001 C CNN
+F 3 "" H 9350 3450 50  0001 C CNN
+	1    9350 3450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9650 3550 9300 3550
+	9350 3550 9000 3550
 Text GLabel 7750 5750 0    50   Input ~ 0
 A0
 Text GLabel 6350 4350 0    50   Input ~ 0
@@ -731,29 +720,18 @@ Wire Notes Line
 	11050 2600 8750 2600
 Wire Notes Line
 	800  600  11050 600 
-Text Notes 9050 3050 0    118  ~ 0
-5) Software Serial
+Text Notes 8900 3050 0    118  ~ 0
+5) I2C / Gen purpose
 Text Notes 6050 3600 0    118  ~ 0
-6) DHT22 or SHT10
+6) DHT22 / SHT10 / UART
 Wire Notes Line
 	5500 4600 8750 4600
 Wire Notes Line
 	8750 4050 11050 4050
-Text GLabel 1200 7100 0    50   Input ~ 0
+Text GLabel 1400 6850 0    50   Input ~ 0
 A2
-Text GLabel 1200 7200 0    50   Input ~ 0
+Text GLabel 1400 6950 0    50   Input ~ 0
 A1
-$Comp
-L Connector:Conn_01x02_Female J7
-U 1 1 5F537DB5
-P 1400 7100
-F 0 "J7" H 1428 7076 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 1428 6985 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 1400 7100 50  0001 C CNN
-F 3 "~" H 1400 7100 50  0001 C CNN
-	1    1400 7100
-	1    0    0    -1  
-$EndComp
 Text GLabel 9650 5000 0    50   Input ~ 0
 MISO
 Text Notes 6100 4950 0    118  ~ 0
@@ -845,4 +823,146 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf" H 3350 5450 
 	1    3350 5450
 	1    0    0    1   
 $EndComp
+$Comp
+L Connector:Conn_01x04_Female J6
+U 1 1 5F682487
+P 9550 3550
+F 0 "J6" H 9578 3526 50  0000 L CNN
+F 1 "Conn_01x04_Female" V 9750 3200 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 9550 3550 50  0001 C CNN
+F 3 "~" H 9550 3550 50  0001 C CNN
+	1    9550 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J8
+U 1 1 5F688ADE
+P 10650 3500
+F 0 "J8" H 10678 3476 50  0000 L CNN
+F 1 "Conn_01x04_Female" V 10850 3100 50  0000 L CNN
+F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 10650 3500 50  0001 C CNN
+F 3 "~" H 10650 3500 50  0001 C CNN
+	1    10650 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0125
+U 1 1 5F6942B2
+P 10450 3700
+F 0 "#PWR0125" H 10450 3450 50  0001 C CNN
+F 1 "GND" H 10455 3527 50  0000 C CNN
+F 2 "" H 10450 3700 50  0001 C CNN
+F 3 "" H 10450 3700 50  0001 C CNN
+	1    10450 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0126
+U 1 1 5F6869FA
+P 10150 3600
+F 0 "#PWR0126" H 10150 3450 50  0001 C CNN
+F 1 "VCC" H 10167 3773 50  0000 C CNN
+F 2 "" H 10150 3600 50  0001 C CNN
+F 3 "" H 10150 3600 50  0001 C CNN
+	1    10150 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 3600 10150 3600
+Text GLabel 10450 3400 0    50   Input ~ 0
+A4
+Text GLabel 10450 3500 0    50   Input ~ 0
+A5
+$Comp
+L Connector:Conn_01x03_Female J7
+U 1 1 5F693D55
+P 1600 6950
+F 0 "J7" H 1628 6976 50  0000 L CNN
+F 1 "Conn_01x03_Female" H 1628 6885 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1600 6950 50  0001 C CNN
+F 3 "~" H 1600 6950 50  0001 C CNN
+	1    1600 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0127
+U 1 1 5F694F04
+P 1400 7050
+F 0 "#PWR0127" H 1400 6800 50  0001 C CNN
+F 1 "GND" H 1405 6877 50  0000 C CNN
+F 2 "" H 1400 7050 50  0001 C CNN
+F 3 "" H 1400 7050 50  0001 C CNN
+	1    1400 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_Dual SW1
+U 1 1 5F6B37D1
+P -1200 1050
+F 0 "SW1" H -1200 1335 50  0000 C CNN
+F 1 "SW_Push_Dual" H -1200 1244 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2" H -1200 1250 50  0001 C CNN
+F 3 "~" H -1200 1250 50  0001 C CNN
+	1    -1200 1050
+	1    0    0    -1  
+$EndComp
+Text GLabel -1400 1050 0    50   Input ~ 0
+RST
+Wire Wire Line
+	-1400 1050 -1400 1250
+Wire Wire Line
+	-1000 1050 -1000 1250
+$Comp
+L power:GND #PWR0128
+U 1 1 5F6BD020
+P -1000 1250
+F 0 "#PWR0128" H -1000 1000 50  0001 C CNN
+F 1 "GND" H -995 1077 50  0000 C CNN
+F 2 "" H -1000 1250 50  0001 C CNN
+F 3 "" H -1000 1250 50  0001 C CNN
+	1    -1000 1250
+	1    0    0    -1  
+$EndComp
+Connection ~ -1000 1250
+$Comp
+L Connector:Conn_01x03_Female J9
+U 1 1 5F6DC6E3
+P -1300 2800
+F 0 "J9" H -1272 2826 50  0000 L CNN
+F 1 "Conn_01x03_Female" H -1272 2735 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H -1300 2800 50  0001 C CNN
+F 3 "~" H -1300 2800 50  0001 C CNN
+	1    -1300 2800
+	1    0    0    -1  
+$EndComp
+Text GLabel -1500 2700 0    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0129
+U 1 1 5F6E2E0D
+P -1600 3100
+F 0 "#PWR0129" H -1600 2850 50  0001 C CNN
+F 1 "GND" H -1595 2927 50  0000 C CNN
+F 2 "" H -1600 3100 50  0001 C CNN
+F 3 "" H -1600 3100 50  0001 C CNN
+	1    -1600 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0130
+U 1 1 5F6E4957
+P -1950 2900
+F 0 "#PWR0130" H -1950 2750 50  0001 C CNN
+F 1 "VCC" H -1933 3073 50  0000 C CNN
+F 2 "" H -1950 2900 50  0001 C CNN
+F 3 "" H -1950 2900 50  0001 C CNN
+	1    -1950 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-1500 2800 -1600 2800
+Wire Wire Line
+	-1500 2900 -1950 2900
+Wire Wire Line
+	-1600 2800 -1600 3100
 $EndSCHEMATC
