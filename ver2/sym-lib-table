@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name diplo)(type Legacy)(uri ${KIPRJMOD}/symbols/diplo.lib)(options "")(descr ""))
+  (lib (name atmega328p-pu-c)(type Legacy)(uri ${KIPRJMOD}/symbols/atmega328p-pu-c.lib)(options "")(descr ""))
+  (lib (name dippy-rescue)(type Legacy)(uri ${KIPRJMOD}/dippy-rescue.lib)(options "")(descr ""))
+)
