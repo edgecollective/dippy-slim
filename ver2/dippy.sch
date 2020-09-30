@@ -708,7 +708,7 @@ Wire Notes Line
 Wire Notes Line
 	5500 3950 800  3950
 Text Notes 9100 1050 0    118  ~ 0
-4) Voltage\nMeausurement
+4) Battery Level
 Wire Notes Line
 	11050 2600 8750 2600
 Wire Notes Line
