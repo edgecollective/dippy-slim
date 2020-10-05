@@ -1372,7 +1372,7 @@
   )
 
   (module Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount (layer F.Cu) (tedit 5DAA3454) (tstamp 5F7A3750)
-    (at -108.05 70.325)
+    (at -104.575 70.125)
     (descr "Connector SMA, 0Hz to 20GHz, 50Ohm, Edge Mount (http://suddendocs.samtec.com/prints/sma-j-p-x-st-em1-mkt.pdf)")
     (tags "SMA Straight Samtec Edge Mount")
     (path /5F374CE8)
@@ -1968,7 +1968,7 @@
   )
 
   (module Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical (layer F.Cu) (tedit 5A19A434) (tstamp 5F7A3516)
-    (at -108 65.6)
+    (at -110.75 70.5)
     (descr "Through hole straight socket strip, 1x01, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x01 2.54mm single row")
     (path /5F66E722)
