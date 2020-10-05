@@ -30,7 +30,7 @@ U 1 1 5F264975
 P 1150 1450
 F 0 "R1" H 1220 1496 50  0000 L CNN
 F 1 "10K" H 1220 1405 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 1080 1450 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1080 1450 50  0001 C CNN
 F 3 "~" H 1150 1450 50  0001 C CNN
 	1    1150 1450
 	1    0    0    -1  
@@ -52,7 +52,7 @@ U 1 1 5F266C1D
 P 4650 2800
 F 0 "C3" H 4765 2846 50  0000 L CNN
 F 1 "0.1u" H 4765 2755 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 4688 2650 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 4688 2650 50  0001 C CNN
 F 3 "~" H 4650 2800 50  0001 C CNN
 	1    4650 2800
 	1    0    0    -1  
@@ -74,7 +74,7 @@ U 1 1 5F26DE4A
 P 1150 2000
 F 0 "C1" V 898 2000 50  0000 C CNN
 F 1 "0.1u" V 989 2000 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 1188 1850 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 1188 1850 50  0001 C CNN
 F 3 "~" H 1150 2000 50  0001 C CNN
 	1    1150 2000
 	1    0    0    -1  
@@ -89,7 +89,7 @@ U 1 1 5F27AAEF
 P 3600 5550
 F 0 "C2" H 3715 5596 50  0000 L CNN
 F 1 "0.1u" H 3715 5505 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 3638 5400 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 3638 5400 50  0001 C CNN
 F 3 "~" H 3600 5550 50  0001 C CNN
 	1    3600 5550
 	1    0    0    -1  
@@ -122,7 +122,7 @@ U 1 1 5F27C5A9
 P 4700 5550
 F 0 "C4" H 4815 5596 50  0000 L CNN
 F 1 "0.1u" H 4815 5505 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 4738 5400 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 4738 5400 50  0001 C CNN
 F 3 "~" H 4700 5550 50  0001 C CNN
 	1    4700 5550
 	1    0    0    -1  
@@ -257,7 +257,7 @@ U 1 1 5F31163E
 P 6650 5600
 F 0 "J2" H 6730 5642 50  0000 L CNN
 F 1 "Screw_Terminal_01x03" H 6730 5551 50  0001 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal" H 6650 5600 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-5.0-H_1x03_P5.00mm_Horizontal" H 6650 5600 50  0001 C CNN
 F 3 "~" H 6650 5600 50  0001 C CNN
 	1    6650 5600
 	1    0    0    -1  
@@ -268,7 +268,7 @@ U 1 1 5F312484
 P 6600 4200
 F 0 "J3" H 6680 4192 50  0000 L CNN
 F 1 "Screw_Terminal_01x04" H 6680 4101 50  0001 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-4-3.5-H_1x04_P3.50mm_Horizontal" H 6600 4200 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-4-5.0-H_1x04_P5.00mm_Horizontal" H 6600 4200 50  0001 C CNN
 F 3 "~" H 6600 4200 50  0001 C CNN
 	1    6600 4200
 	1    0    0    -1  
@@ -303,7 +303,7 @@ U 1 1 5F322886
 P 8100 5550
 F 0 "R2" H 8170 5596 50  0000 L CNN
 F 1 "10K" H 8170 5505 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 8030 5550 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 8030 5550 50  0001 C CNN
 F 3 "~" H 8100 5550 50  0001 C CNN
 	1    8100 5550
 	1    0    0    -1  
@@ -336,7 +336,7 @@ U 1 1 5F334BCF
 P 7800 4250
 F 0 "R3" H 7870 4296 50  0000 L CNN
 F 1 "10K" H 7870 4205 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7730 4250 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 7730 4250 50  0001 C CNN
 F 3 "~" H 7800 4250 50  0001 C CNN
 	1    7800 4250
 	1    0    0    -1  
@@ -470,7 +470,7 @@ U 1 1 5F3431B9
 P 9650 1600
 F 0 "R4" H 9720 1646 50  0000 L CNN
 F 1 "10M" H 9720 1555 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 9580 1600 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 9580 1600 50  0001 C CNN
 F 3 "~" H 9650 1600 50  0001 C CNN
 	1    9650 1600
 	1    0    0    -1  
@@ -481,7 +481,7 @@ U 1 1 5F34520A
 P 9650 2050
 F 0 "R5" H 9720 2096 50  0000 L CNN
 F 1 "10M" H 9720 2005 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 9580 2050 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 9580 2050 50  0001 C CNN
 F 3 "~" H 9650 2050 50  0001 C CNN
 	1    9650 2050
 	1    0    0    -1  
@@ -588,28 +588,6 @@ F 3 "~" H 6000 6850 50  0001 C CNN
 	1    6000 6850
 	1    0    0    -1  
 $EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 5F3B9C3E
-P 6000 7200
-F 0 "H3" H 6100 7246 50  0000 L CNN
-F 1 "MountingHole" H 6100 7155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 6000 7200 50  0001 C CNN
-F 3 "~" H 6000 7200 50  0001 C CNN
-	1    6000 7200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 5F3BA0EE
-P 6000 7500
-F 0 "H4" H 6100 7546 50  0000 L CNN
-F 1 "MountingHole" H 6100 7455 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 6000 7500 50  0001 C CNN
-F 3 "~" H 6000 7500 50  0001 C CNN
-	1    6000 7500
-	1    0    0    -1  
-$EndComp
 Text GLabel 9250 3650 0    50   Input ~ 0
 A5
 Text GLabel 9250 3750 0    50   Input ~ 0
@@ -654,7 +632,7 @@ U 1 1 5F57E191
 P 1850 2150
 F 0 "D1" V 1889 2032 50  0000 R CNN
 F 1 "LED" V 1798 2032 50  0000 R CNN
-F 2 "LED_THT:LED_D3.0mm" H 1850 2150 50  0001 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 1850 2150 50  0001 C CNN
 F 3 "~" H 1850 2150 50  0001 C CNN
 	1    1850 2150
 	0    -1   -1   0   
@@ -678,7 +656,7 @@ U 1 1 5F59A5EA
 P 1850 2450
 F 0 "R6" H 1920 2496 50  0000 L CNN
 F 1 "300R" H 1920 2405 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 1780 2450 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1780 2450 50  0001 C CNN
 F 3 "~" H 1850 2450 50  0001 C CNN
 	1    1850 2450
 	1    0    0    -1  
@@ -822,7 +800,7 @@ U 1 1 5F693D55
 P 1600 6950
 F 0 "J7" H 1628 6976 50  0000 L CNN
 F 1 "Conn_01x03_Female" H 1628 6885 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1600 6950 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 1600 6950 50  0001 C CNN
 F 3 "~" H 1600 6950 50  0001 C CNN
 	1    1600 6950
 	1    0    0    -1  
@@ -840,10 +818,6 @@ F 3 "" H 1400 7050 50  0001 C CNN
 $EndComp
 Text GLabel 4750 1700 0    50   Input ~ 0
 RST
-Wire Wire Line
-	4750 1700 4750 1900
-Wire Wire Line
-	5150 1700 5150 1900
 $Comp
 L power:GND #PWR0128
 U 1 1 5F6BD020
@@ -855,7 +829,6 @@ F 3 "" H 5150 1900 50  0001 C CNN
 	1    5150 1900
 	1    0    0    -1  
 $EndComp
-Connection ~ 5150 1900
 $Comp
 L Connector:Conn_01x03_Female J9
 U 1 1 5F6DC6E3
@@ -873,7 +846,7 @@ U 1 1 5F7227DD
 P 10600 3600
 F 0 "R7" H 10670 3646 50  0000 L CNN
 F 1 "R" H 10670 3555 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 10530 3600 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 10530 3600 50  0001 C CNN
 F 3 "~" H 10600 3600 50  0001 C CNN
 	1    10600 3600
 	1    0    0    -1  
@@ -884,7 +857,7 @@ U 1 1 5F722F91
 P 10800 3600
 F 0 "R8" H 10870 3646 50  0000 L CNN
 F 1 "R" H 10870 3555 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 10730 3600 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 10730 3600 50  0001 C CNN
 F 3 "~" H 10800 3600 50  0001 C CNN
 	1    10800 3600
 	1    0    0    -1  
@@ -951,7 +924,7 @@ U 1 1 5F6B9734
 P 10200 3600
 F 0 "J8" H 10118 3175 50  0000 C CNN
 F 1 "Screw_Terminal_01x04" H 10118 3266 50  0001 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-4-3.5-H_1x04_P3.50mm_Horizontal" H 10200 3600 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-4-5.0-H_1x04_P5.00mm_Horizontal" H 10200 3600 50  0001 C CNN
 F 3 "~" H 10200 3600 50  0001 C CNN
 	1    10200 3600
 	1    0    0    1   
@@ -990,7 +963,7 @@ U 1 1 5F6EF08A
 P 2950 5500
 F 0 "J1" H 2868 5175 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 2868 5266 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal" H 2950 5500 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal" H 2950 5500 50  0001 C CNN
 F 3 "~" H 2950 5500 50  0001 C CNN
 	1    2950 5500
 	-1   0    0    1   
@@ -1051,7 +1024,7 @@ U 1 1 5F7CE5DB
 P 7600 5600
 F 0 "J11" H 7628 5580 50  0000 L CNN
 F 1 "Conn_01x03_Female" H 7628 5535 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7600 5600 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 7600 5600 50  0001 C CNN
 F 3 "~" H 7600 5600 50  0001 C CNN
 	1    7600 5600
 	1    0    0    -1  
@@ -1088,7 +1061,7 @@ U 1 1 5F808EB5
 P 9350 2050
 F 0 "C6" H 9100 2100 50  0000 L CNN
 F 1 "0.1uF" H 9000 2000 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 9388 1900 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 9388 1900 50  0001 C CNN
 F 3 "~" H 9350 2050 50  0001 C CNN
 	1    9350 2050
 	1    0    0    -1  
@@ -1115,4 +1088,17 @@ F 3 "~" H 4950 1900 50  0001 C CNN
 $EndComp
 Text Notes 4800 1350 0    118  ~ 0
 NEEDS\nREVIEW
+Wire Wire Line
+	5150 1700 5150 1600
+Wire Wire Line
+	5150 1600 4750 1600
+Wire Wire Line
+	4750 1600 4750 1700
+Wire Wire Line
+	5150 1900 5150 1800
+Wire Wire Line
+	5150 1800 4750 1800
+Wire Wire Line
+	4750 1800 4750 1900
+Connection ~ 5150 1900
 $EndSCHEMATC
