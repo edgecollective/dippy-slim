@@ -263,17 +263,6 @@ F 3 "~" H 6650 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x04 J3
-U 1 1 5F312484
-P 6600 4200
-F 0 "J3" H 6680 4192 50  0000 L CNN
-F 1 "Screw_Terminal_01x04" H 6680 4101 50  0001 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-4-5.0-H_1x04_P5.00mm_Horizontal" H 6600 4200 50  0001 C CNN
-F 3 "~" H 6600 4200 50  0001 C CNN
-	1    6600 4200
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:VCC #PWR0111
 U 1 1 5F31DB78
 P 6100 5600
@@ -357,13 +346,13 @@ A0
 $Comp
 L power:GND #PWR0116
 U 1 1 5F33656E
-P 6400 4100
-F 0 "#PWR0116" H 6400 3850 50  0001 C CNN
-F 1 "GND" H 6405 3927 50  0000 C CNN
-F 2 "" H 6400 4100 50  0001 C CNN
-F 3 "" H 6400 4100 50  0001 C CNN
-	1    6400 4100
-	-1   0    0    1   
+P 5850 4100
+F 0 "#PWR0116" H 5850 3850 50  0001 C CNN
+F 1 "GND" H 5855 3927 50  0000 C CNN
+F 2 "" H 5850 4100 50  0001 C CNN
+F 3 "" H 5850 4100 50  0001 C CNN
+	1    5850 4100
+	1    0    0    -1  
 $EndComp
 Text GLabel 3600 4900 0    50   Input ~ 0
 VIN
@@ -980,26 +969,15 @@ Connection ~ 1150 1700
 Wire Wire Line
 	1150 1700 2850 1700
 $Comp
-L Connector:Conn_01x04_Female J10
-U 1 1 5F7A4B06
-P 7300 4200
-F 0 "J10" H 7328 4130 50  0000 L CNN
-F 1 "Conn_01x04_Female" H 7328 4085 50  0001 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 7300 4200 50  0001 C CNN
-F 3 "~" H 7300 4200 50  0001 C CNN
-	1    7300 4200
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0133
 U 1 1 5F7B712B
-P 7100 4100
-F 0 "#PWR0133" H 7100 3850 50  0001 C CNN
-F 1 "GND" H 7105 3927 50  0000 C CNN
-F 2 "" H 7100 4100 50  0001 C CNN
-F 3 "" H 7100 4100 50  0001 C CNN
-	1    7100 4100
-	-1   0    0    1   
+P 6800 4100
+F 0 "#PWR0133" H 6800 3850 50  0001 C CNN
+F 1 "GND" H 6805 3927 50  0000 C CNN
+F 2 "" H 6800 4100 50  0001 C CNN
+F 3 "" H 6800 4100 50  0001 C CNN
+	1    6800 4100
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR0134
@@ -1123,4 +1101,34 @@ F 3 "~" H 6000 7200 50  0001 C CNN
 	1    6000 7200
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Conn_01x05_Female J10
+U 1 1 5F890CA8
+P 7300 4200
+F 0 "J10" H 7328 4180 50  0000 L CNN
+F 1 "Conn_01x05_Female" H 7328 4135 50  0001 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 7300 4200 50  0001 C CNN
+F 3 "~" H 7300 4200 50  0001 C CNN
+	1    7300 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x05 J3
+U 1 1 5F89274F
+P 6600 4200
+F 0 "J3" H 6680 4196 50  0000 L CNN
+F 1 "Screw_Terminal_01x05" H 6680 4151 50  0001 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-5-5.0-H_1x05_P5.00mm_Horizontal" H 6600 4200 50  0001 C CNN
+F 3 "~" H 6600 4200 50  0001 C CNN
+	1    6600 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 4100 5850 4100
+Wire Wire Line
+	7100 4100 6800 4100
+Text GLabel 6400 4000 0    50   Input ~ 0
+VIN
+Text GLabel 7100 4000 0    50   Input ~ 0
+VIN
 $EndSCHEMATC
