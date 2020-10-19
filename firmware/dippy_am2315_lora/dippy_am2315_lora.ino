@@ -8,6 +8,14 @@
 
 #include <SPI.h>
 #include <RH_RF95.h>
+#include <Wire.h>
+#include <Adafruit_AM2315.h>
+
+
+#include <ArduinoJson.h>
+
+
+Adafruit_AM2315 am2315;
 
 /* for feather32u4 
 #define RFM95_CS 8
@@ -47,14 +55,24 @@ RH_RF95 rf95(RFM95_CS, RFM95_INT);
 
 #define LED 5
 
+
+    StaticJsonDocument<200> doc;
+
+
 void setup() 
 {
+
+   if (! am2315.begin()) {
+     Serial.println("Sensor not found, check wiring & pullups!");
+     while (1);
+  }
+  
   pinMode(LED, OUTPUT);
   
   pinMode(RFM95_RST, OUTPUT);
   digitalWrite(RFM95_RST, HIGH);
 
-  Serial.begin(9600);
+  Serial.begin(115200);
   /*while (!Serial) {
     delay(1);
   }
@@ -96,6 +114,14 @@ int16_t packetnum = 0;  // packet counter, we increment per xmission
 
 void loop()
 {
+
+  float temperature, humidity;
+
+  if (! am2315.readTemperatureAndHumidity(&temperature, &humidity)) {
+    Serial.println("Failed to read data from AM2315");
+    return;
+  }
+  
   delay(1000); // Wait 1 second between transmits, could also 'sleep' here!
   Serial.println("Transmitting..."); // Send a message to rf95_server
   
