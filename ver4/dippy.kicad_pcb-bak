@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 88)
+    (drawings 90)
     (tracks 644)
     (zones 0)
     (modules 40)
@@ -168,7 +168,7 @@
   )
 
   (module footprints:moth4 (layer F.Cu) (tedit 0) (tstamp 5F908BEE)
-    (at -114.15 7.33 30)
+    (at -114.18 7.22 30)
     (fp_text reference G*** (at 0 0 30) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
@@ -2436,7 +2436,7 @@
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor")
     (path /5F27CEC8)
-    (fp_text reference C5 (at -1.565 2.365 180) (layer F.SilkS)
+    (fp_text reference C5 (at -1.385 2.265 220) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 10u (at 1.25 3.75 90) (layer F.Fab)
@@ -2618,6 +2618,12 @@
     )
   )
 
+  (gr_text A5 (at -128.73 45.35 270) (layer F.SilkS) (tstamp 5F916D27)
+    (effects (font (size 0.8 0.8) (thickness 0.15)))
+  )
+  (gr_text A4 (at -128.69 40.35 270) (layer F.SilkS) (tstamp 5F916606)
+    (effects (font (size 0.8 0.8) (thickness 0.15)))
+  )
   (gr_line (start -108.23 50.31) (end -107.83 49.67) (layer F.SilkS) (width 0.12))
   (gr_line (start -108.23 50.27) (end -108.7 49.63) (layer F.SilkS) (width 0.12))
   (gr_line (start -108.24 48.43) (end -108.24 50.23) (layer F.SilkS) (width 0.12))
@@ -2665,7 +2671,7 @@
   (gr_text A1 (at -115.46 23) (layer F.SilkS) (tstamp 5F7D9D0C)
     (effects (font (size 0.85 0.85) (thickness 0.15)))
   )
-  (gr_text http://pvos.org/ (at -124.08 7.85) (layer F.SilkS) (tstamp 5F7D890F)
+  (gr_text http://pvos.org/ (at -124.09 7.61) (layer F.SilkS) (tstamp 5F7D890F)
     (effects (font (size 1.1 1.1) (thickness 0.15)))
   )
   (gr_text M2.5 (at -87.9 4.99) (layer F.SilkS) (tstamp 5F7D5A29)
