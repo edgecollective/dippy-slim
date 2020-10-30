@@ -117,7 +117,9 @@ void setup() {
   testanimate(logo_bmp, LOGO_WIDTH, LOGO_HEIGHT); // Animate bitmaps
   */
 
-  testdrawchar2(0); 
+  mothbot(0);
+  delay(3000);
+  //testdrawchar2(0); 
 }
 
 int i=0;
@@ -144,6 +146,19 @@ void testdrawchar2(int number) {
   display.println(number);
   display.println();
   //display.println("MOTHBOT IS GO!");
+    display.display();
+}
+
+void mothbot(int number) {
+  display.clearDisplay();
+  display.setTextSize(2);      // Normal 1:1 pixel scale
+  display.setTextColor(SSD1306_WHITE); // Draw white text
+  display.setCursor(0, 0);     // Start at top-left corner
+    //display.cp437(true);         // Use full 256 char 'Code Page 437' font
+  display.println("MOTHBOT V4");
+  display.setTextSize(1);
+  display.println("http://pvos.org/");
+  display.println("mothbot");
     display.display();
 }
 
