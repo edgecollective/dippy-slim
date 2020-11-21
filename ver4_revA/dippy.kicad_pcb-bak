@@ -2228,7 +2228,7 @@
   (gr_text M2.5 (at -87.9 4.99) (layer F.SilkS) (tstamp 5F7D5A29)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
-  (gr_text v4 (at -115.71 12.05) (layer F.SilkS) (tstamp 5F7D1FDC)
+  (gr_text ver4A (at -115.71 12.05) (layer F.SilkS) (tstamp 5F7D1FDC)
     (effects (font (size 1.2 1.2) (thickness 0.15)))
   )
   (gr_text MOTHBOT (at -123.73 10.34) (layer F.SilkS) (tstamp 5F7D1FDC)
